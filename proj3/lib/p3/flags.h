@@ -1,0 +1,1 @@
+#define PRINTMOVING 1

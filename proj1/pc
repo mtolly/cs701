@@ -1,0 +1,3 @@
+#!/bin/bash
+opt -load Debug/lib/P1.so -printCode mem.bc > mem.opt 2> out.txt
+

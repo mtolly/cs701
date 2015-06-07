@@ -1,0 +1,2 @@
+#!/bin/bash
+opt -load Debug/lib/P1.so -printCode -optLoads vars.bc > vars.opt

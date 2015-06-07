@@ -1,0 +1,2 @@
+#!/bin/bash
+opt -load Debug/lib/P2.so -liveVars example.bc > example.opt

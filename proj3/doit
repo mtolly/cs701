@@ -1,0 +1,6 @@
+#!/bin/bash
+make
+rm out.txt
+run 2> out.txt
+less out.txt
+

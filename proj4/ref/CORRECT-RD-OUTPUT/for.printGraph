@@ -1,0 +1,22 @@
+
+INTERFERENCE GRAPH FOR FUNCTION main
+
+Physical Registers
+R2's neighbors: { R43 R49 R53 R109 R114 }
+R43's neighbors: { R2 R53 R109 R114 }
+R43's neighbors: { R49 }
+R49's neighbors: { %2147483660 %2147483661 }
+R49's neighbors: { %2147483660 %2147483661 }
+R49's neighbors: { %2147483660 %2147483661 }
+R49's neighbors: { %2147483660 %2147483661 }
+R49's neighbors: { R114 %2147483661 }
+R49's neighbors: { R2 R53 R109 R114 }
+R49's neighbors: { R114 }
+R49's neighbors: { R43 }
+R53's neighbors: { R2 R43 R49 R109 R114 %2147483661 }
+R109's neighbors: { R2 R43 R49 R53 R114 %2147483661 }
+R114's neighbors: { R2 R43 R49 R49 R49 R53 R109 %2147483661 }
+
+Virtual Registers
+%2147483660's neighbors: { R49 R49 R49 R49 %2147483661 }
+%2147483661's neighbors: { R49 R49 R49 R49 R49 R53 R109 R114 %2147483660 }

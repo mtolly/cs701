@@ -1,0 +1,1 @@
+clang -emit-llvm -O0 -c sed.c -o sed.bc

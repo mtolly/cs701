@@ -1,0 +1,17 @@
+#!/bin/bash
+
+clang -emit-llvm -O0 -c sum.c -o sum.bc
+llc sum.bc
+gcc sum.s -o sum
+llvm-dis -f sum.bc
+
+clang -emit-llvm -O0 -c vars.c -o vars.bc
+llc vars.bc
+gcc vars.s -o vars
+llvm-dis -f vars.bc
+
+clang -emit-llvm -O0 -c sed.c -o sed.bc
+llc sed.bc
+gcc sed.s -o sed
+llvm-dis -f sed.bc
+
